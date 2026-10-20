@@ -1,17 +1,17 @@
 related_posts: 3
-title: Prodotti Digitali
+title: Villa Mentana
 baseurl: "/villasavelli"
 url: "https://cialdecompatibili-netizen.github.io"
 email: ""
-description: "Prodotti Digitali: template di siti, plugin, fogli Excel, modelli di testi, prompt Claude, workflow n8n e guide. Pre-ordina senza pagamento anticipato."
-footer_text: "&copy; 2026 Prodotti Digitali"
+description: "Villa a Mentana, vicino Roma: camere a mese per studenti e smart worker, B&B, posto letto economico e coworking. Ospiti tranquilli, niente feste."
+footer_text: "&copy; 2026 Villa Mentana"
 minimal_mistakes_skin: default
 search: true
 
 # SEO globale
 author:
-  name: "Prodotti Digitali"
-  bio: "Template, plugin, fogli Excel, testi, prompt, workflow n8n e guide. Pre-ordina il tuo prodotto."
+  name: "Villa Mentana"
+  bio: "Camere a mese, B&B, posto letto economico e coworking a Mentana, vicino Roma."
   links:
     - label: "Scrivici"
       icon: "fas fa-fw fa-envelope"
@@ -96,7 +96,7 @@ cms_homepage:
 
 # E-commerce (porting da ecommercealfolio1). Interruttore: admin > Impostazioni > Abilita e-commerce. Solo true accende, chiave assente = spento.
 # Spento = spariscono menu, carrello e script; pagine /negozio/ /carrello/ /ordine/ e schede mostrano 'non disponibile'. Prodotti e categorie restano salvati.
-ecommerce: true
+ecommerce: false
 # Ordini (SMOKE TEST, nessun pagamento): il browser scrive una riga nel foglio Google chiamando questo Apps Script. Vuoto = il pulsante 'Invia richiesta d'ordine' resta spento.
 ordini:
-  tracker: "https://script.google.com/macros/s/AKfycbzS_BXbhdL5lonAPSMcLF0d0zxBgf4L38mxBrhGMSsKrDKp-vlYMCxuWmcUURnu6Vxn/exec"
+  tracker: ""

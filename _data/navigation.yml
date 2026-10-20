@@ -1,9 +1,15 @@
 main:
   - title: "Home"
     url: /
-  - title: "Categorie"
-    url: /negozio/
-  - title: "Blog"
-    url: /blog/
+  - title: "Soggiorni lunghi"
+    url: /soggiorni-lunghi/
+  - title: "Posto letto economico"
+    url: /posto-letto-economico/
+  - title: "Coworking"
+    url: /coworking/
+  - title: "Mentana e dintorni"
+    url: /mentana-e-dintorni/
+  - title: "Regole e FAQ"
+    url: /regole-e-faq/
   - title: "Contatti"
     url: /contatti/

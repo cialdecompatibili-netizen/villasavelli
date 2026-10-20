@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Contatti"
-seo_title: "Contatti | Prodotti Digitali"
-seo_description: "Scrivici cosa ti serve o quale prodotto cerchi: ti rispondiamo entro 24 ore, festivi esclusi."
+seo_title: "Contatti"
+seo_description: "Richiedi disponibilita: dicci cosa cerchi e ti rispondiamo con tariffe e date libere."
 permalink: /contatti/
 ---
 
@@ -17,7 +17,7 @@ permalink: /contatti/
   accetti il dominio di questo sito (campo "sito" = location.hostname).
 {%- endcomment -%}
 
-<p class="cf-intro">Dicci quale prodotto ti serve o cosa cerchi: ti rispondiamo entro 24 ore, festivi esclusi.</p>
+<p class="cf-intro">Richiedi disponibilit&agrave;: dicci cosa cerchi e le date, ti rispondiamo con tariffe e camere libere. Nessun pagamento ora.</p>
 
 <style>
 .cf-wrap,.cf-intro{max-width:520px;margin-left:auto;margin-right:auto}
@@ -25,7 +25,7 @@ permalink: /contatti/
 .cf-form{padding:28px;border:1px solid rgba(0,0,0,.12);border-radius:12px;background:#fffdf5}
 .cf-form .cf-campo{margin:0 0 1.1rem}
 .cf-form label{display:block;width:100%;margin:0 0 .4rem;font-weight:600;text-align:left}
-.cf-form input[type=text],.cf-form input[type=email],.cf-form textarea{display:block;width:100%;box-sizing:border-box;margin:0;padding:.75rem .9rem;font:inherit;font-size:1rem;line-height:1.4;color:inherit;background:#fff;border:1px solid rgba(0,0,0,.2);border-radius:8px}
+.cf-form input[type=text],.cf-form input[type=email],.cf-form select,.cf-form textarea{display:block;width:100%;box-sizing:border-box;margin:0;padding:.75rem .9rem;font:inherit;font-size:1rem;line-height:1.4;color:inherit;background:#fff;border:1px solid rgba(0,0,0,.2);border-radius:8px}
 .cf-form ::placeholder{opacity:.5}
 .cf-form textarea{min-height:9rem;resize:vertical}
 .cf-form input:focus,.cf-form textarea:focus{outline:2px solid var(--t-accent,#d9480f);outline-offset:1px}
@@ -50,11 +50,15 @@ permalink: /contatti/
   </div>
   <div class="cf-campo">
     <label for="cf-email">La tua email</label>
-    <input type="email" id="cf-email" name="email" maxlength="150" required autocomplete="email" placeholder="nome@azienda.it">
+    <input type="email" id="cf-email" name="email" maxlength="150" required autocomplete="email" placeholder="nome@email.it">
   </div>
   <div class="cf-campo">
-    <label for="cf-msg">Cosa ti serve?</label>
-    <textarea id="cf-msg" name="messaggio" rows="5" maxlength="3000" required placeholder="Esempio: vorrei il template per il sito del mio ristorante."></textarea>
+    <label for="cf-off">Cosa ti interessa?</label>
+    <select id="cf-off" name="offerta" style="display:block;width:100%;padding:.75rem .9rem;font:inherit;border:1px solid rgba(0,0,0,.2);border-radius:8px;background:#fff"><option value="">Non so ancora</option><option value="posto-letto">Posto letto economico</option><option value="singola">Camera singola</option><option value="bb">B&amp;B</option><option value="soggiorno-lungo">Soggiorno lungo</option><option value="coworking">Coworking</option><option value="villa-intera">Villa intera</option><option value="convenzione">Convenzione</option></select>
+  </div>
+  <div class="cf-campo">
+    <label for="cf-msg">Date e richieste</label>
+    <textarea id="cf-msg" name="messaggio" rows="5" maxlength="3000" required placeholder="Esempio: 2 persone, dal 10 al 14 novembre, per visitare Roma."></textarea>
   </div>
   <div style="position:absolute;left:-9999px;height:0;overflow:hidden" aria-hidden="true">
     <label for="cf-web">Non compilare</label>
@@ -71,7 +75,8 @@ permalink: /contatti/
   var form = document.getElementById('cf-form');
   var esito = document.getElementById('cf-esito');
   var btn = document.getElementById('cf-btn');
-  var ENDPOINT = "https://contatti-form.evabomboniere.workers.dev";
+  var ENDPOINT = ""; /* DA IMPOSTARE: worker o mail della villa. Vuoto = invio disattivato */
+  try { var q = new URLSearchParams(location.search).get("offerta"); if (q) document.getElementById("cf-off").value = q; } catch (e) {}
   var t0 = Date.now();
   /* notifica in alto: "Invio in corso" resta finche' non c'e' l'esito; successo ed errori spariscono dopo 4 secondi (cambia 4000) */
   var tm = null;
@@ -99,7 +104,7 @@ permalink: /contatti/
   }
   /* la prova si prepara in anticipo (al caricamento) e si rinnova dopo 8 minuti o dopo ogni invio */
   function prepara() { preT = Date.now(); pre = altcha().catch(function () { return ''; }); }
-  prepara();
+  if (ENDPOINT) prepara();
   function token() {
     if (!pre || Date.now() - preT > 480000) prepara();
     return pre.then(function (v) { if (v) return v; prepara(); return pre; });
@@ -107,6 +112,7 @@ permalink: /contatti/
 
   form.addEventListener('submit', function (ev) {
     ev.preventDefault();
+    if (!ENDPOINT) { mostra('Il modulo sar\u00e0 attivo a breve. Riprova pi\u00f9 tardi.', false); return; }
     if (!form.checkValidity()) { mostra('Compila nome, email e messaggio.', false); return; }
     btn.disabled = true; mostra('Invio in corso...', true, true);
     token().then(function (tk) {
