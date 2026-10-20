@@ -1,0 +1,786 @@
+{
+    "_nota":  "PRODOTTI DIGITALI (pre-ordine, nessun pagamento). Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine prodotto. L\u0027id \"categoria\" e\u0027 riservato.",
+    "categorie":  [
+                      {
+                          "id":  "planner",
+                          "nome":  "Planner e agende stampabili",
+                          "icona":  "📅"
+                      },
+                      {
+                          "id":  "canva",
+                          "nome":  "Template Canva modificabili",
+                          "icona":  "🎨"
+                      },
+                      {
+                          "id":  "notion",
+                          "nome":  "Template Notion",
+                          "icona":  "🧠"
+                      },
+                      {
+                          "id":  "wallart",
+                          "nome":  "Stampe da parete (wall art)",
+                          "icona":  "🖼"
+                      },
+                      {
+                          "id":  "clipart",
+                          "nome":  "SVG, clipart e adesivi digitali",
+                          "icona":  "✂"
+                      },
+                      {
+                          "id":  "scuola",
+                          "nome":  "Materiale didattico e bambini",
+                          "icona":  "📚"
+                      },
+                      {
+                          "id":  "lavoro",
+                          "nome":  "CV, lettere e portfolio",
+                          "icona":  "💼"
+                      },
+                      {
+                          "id":  "social",
+                          "nome":  "Pacchetti social media",
+                          "icona":  "📱"
+                      },
+                      {
+                          "id":  "eventi",
+                          "nome":  "Inviti e feste",
+                          "icona":  "💌"
+                      },
+                      {
+                          "id":  "sheets",
+                          "nome":  "Budget e tracker Google Sheets",
+                          "icona":  "💰"
+                      },
+                      {
+                          "id":  "template",
+                          "nome":  "Template siti Jekyll",
+                          "icona":  "🌐"
+                      },
+                      {
+                          "id":  "plugin",
+                          "nome":  "Moduli e plugin PHP",
+                          "icona":  "🧩"
+                      },
+                      {
+                          "id":  "testi",
+                          "nome":  "Modelli di testi",
+                          "icona":  "📄"
+                      },
+                      {
+                          "id":  "excel",
+                          "nome":  "Fogli Excel pronti",
+                          "icona":  "📊"
+                      },
+                      {
+                          "id":  "prompt",
+                          "nome":  "Prompt e skill Claude",
+                          "icona":  "🤖"
+                      },
+                      {
+                          "id":  "n8n",
+                          "nome":  "Workflow n8n",
+                          "icona":  "⚙️"
+                      },
+                      {
+                          "id":  "guide",
+                          "nome":  "Ebook e guide",
+                          "icona":  "📘"
+                      },
+                      {
+                          "id":  "stampabili",
+                          "nome":  "Moduli e checklist stampabili",
+                          "icona":  "📄"
+                      },
+                      {
+                          "id":  "bundle",
+                          "nome":  "Kit completi a prezzo scontato",
+                          "icona":  "🎁"
+                      }
+                  ],
+    "prodotti":  [
+                     {
+                         "id":  "planner-annuale",
+                         "nome":  "Planner annuale stampabile 2027",
+                         "descrizione":  "Agenda con vista annuale, mensile, settimanale e giornaliera in PDF.",
+                         "categoria":  "planner",
+                         "icona":  "📅",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  990,
+                         "descrizione_completa":  "Agenda con vista annuale, mensile, settimanale e giornaliera in PDF.\nInclude PDF in formato A4 e A5, versione con link cliccabili per tablet, 12 mesi.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "habit-tracker",
+                         "nome":  "Habit tracker e diario delle abitudini",
+                         "descrizione":  "Tracker mensili e settimanali per costruire abitudini, da stampare o usare su iPad.",
+                         "categoria":  "planner",
+                         "icona":  "📅",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  690,
+                         "descrizione_completa":  "Tracker mensili e settimanali per costruire abitudini, da stampare o usare su iPad.\nInclude 30 pagine PDF, versione GoodNotes, istruzioni.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "meal-planner",
+                         "nome":  "Meal planner e lista della spesa",
+                         "descrizione":  "Pianifica i pasti della settimana e genera la lista della spesa.",
+                         "categoria":  "planner",
+                         "icona":  "📅",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  790,
+                         "descrizione_completa":  "Pianifica i pasti della settimana e genera la lista della spesa.\nInclude Pagine settimanali, lista spesa, ricettario vuoto, PDF A4 e A5.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "canva-instagram",
+                         "nome":  "Pack 30 post Instagram modificabili",
+                         "descrizione":  "30 modelli per post e storie da personalizzare in Canva con i tuoi colori.",
+                         "categoria":  "canva",
+                         "icona":  "🎨",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1490,
+                         "descrizione_completa":  "30 modelli per post e storie da personalizzare in Canva con i tuoi colori.\nInclude 30 post, 15 storie, guida ai font e ai colori.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "canva-brand-kit",
+                         "nome":  "Brand kit per piccole attivita",
+                         "descrizione":  "Logo base, palette, biglietti da visita e intestazioni modificabili.",
+                         "categoria":  "canva",
+                         "icona":  "🎨",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  2490,
+                         "descrizione_completa":  "Logo base, palette, biglietti da visita e intestazioni modificabili.\nInclude Kit Canva, palette, 3 abbinamenti di font, guida all uso.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "canva-menu",
+                         "nome":  "Menu per ristoranti e bar modificabile",
+                         "descrizione":  "Menu, carta dei vini e segnaposto da personalizzare in Canva.",
+                         "categoria":  "canva",
+                         "icona":  "🎨",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1290,
+                         "descrizione_completa":  "Menu, carta dei vini e segnaposto da personalizzare in Canva.\nInclude 8 modelli di menu, formati A4 e A5, versione stampa e web.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "notion-finanze",
+                         "nome":  "Notion: finanze personali",
+                         "descrizione":  "Dashboard per entrate, spese, risparmi e obiettivi.",
+                         "categoria":  "notion",
+                         "icona":  "🧠",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1290,
+                         "descrizione_completa":  "Dashboard per entrate, spese, risparmi e obiettivi.\nInclude Template Notion duplicabile, 6 database, video guida.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "notion-freelance",
+                         "nome":  "Notion: clienti e progetti per freelance",
+                         "descrizione":  "CRM, preventivi, progetti e fatture in un unico spazio Notion.",
+                         "categoria":  "notion",
+                         "icona":  "🧠",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1990,
+                         "descrizione_completa":  "CRM, preventivi, progetti e fatture in un unico spazio Notion.\nInclude Template Notion, 8 database, modelli di preventivo e fattura.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "notion-studio",
+                         "nome":  "Notion: pianificatore di studio",
+                         "descrizione":  "Calendario esami, appunti e tracker dello studio per studenti.",
+                         "categoria":  "notion",
+                         "icona":  "🧠",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  990,
+                         "descrizione_completa":  "Calendario esami, appunti e tracker dello studio per studenti.\nInclude Template Notion, tracker esami, pagina appunti, pomodoro.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "wallart-botanico",
+                         "nome":  "Set 6 stampe botaniche minimal",
+                         "descrizione":  "Sei stampe botaniche in stile minimal per salotto e camera.",
+                         "categoria":  "wallart",
+                         "icona":  "🖼",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  790,
+                         "descrizione_completa":  "Sei stampe botaniche in stile minimal per salotto e camera.\nInclude 6 file ad alta risoluzione, formati A4, A3, 30x40 e 50x70.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "wallart-citazioni",
+                         "nome":  "Set 8 stampe con citazioni",
+                         "descrizione":  "Otto stampe con frasi motivazionali per casa e ufficio.",
+                         "categoria":  "wallart",
+                         "icona":  "🖼",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  790,
+                         "descrizione_completa":  "Otto stampe con frasi motivazionali per casa e ufficio.\nInclude 8 file PDF e PNG, 5 formati di stampa, istruzioni.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "wallart-cameretta",
+                         "nome":  "Stampe animali per cameretta",
+                         "descrizione":  "Set di stampe dolci per la cameretta, in toni neutri.",
+                         "categoria":  "wallart",
+                         "icona":  "🖼",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  890,
+                         "descrizione_completa":  "Set di stampe dolci per la cameretta, in toni neutri.\nInclude 6 stampe, formati A4 e A3, versione con nome personalizzabile.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "svg-natale",
+                         "nome":  "Pack SVG Natale per Cricut e Silhouette",
+                         "descrizione":  "Decorazioni e scritte natalizie da tagliare con la tua macchina.",
+                         "categoria":  "clipart",
+                         "icona":  "✂",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  990,
+                         "descrizione_completa":  "Decorazioni e scritte natalizie da tagliare con la tua macchina.\nInclude 60 file SVG, PNG e DXF, licenza d uso per piccoli prodotti.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "clipart-acquerello",
+                         "nome":  "Clipart acquerello fiori e foglie",
+                         "descrizione":  "Elementi PNG trasparenti per inviti, biglietti e grafiche.",
+                         "categoria":  "clipart",
+                         "icona":  "✂",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1290,
+                         "descrizione_completa":  "Elementi PNG trasparenti per inviti, biglietti e grafiche.\nInclude 80 elementi PNG 300 dpi, licenza commerciale semplice.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "adesivi-planner",
+                         "nome":  "Adesivi digitali per planner",
+                         "descrizione":  "Adesivi PNG da usare in GoodNotes e Notability.",
+                         "categoria":  "clipart",
+                         "icona":  "✂",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  790,
+                         "descrizione_completa":  "Adesivi PNG da usare in GoodNotes e Notability.\nInclude 200 adesivi PNG, file per GoodNotes, istruzioni.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "schede-matematica",
+                         "nome":  "Schede di matematica per la primaria",
+                         "descrizione":  "Esercizi stampabili su addizioni, tabelline e problemi.",
+                         "categoria":  "scuola",
+                         "icona":  "📚",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  990,
+                         "descrizione_completa":  "Esercizi stampabili su addizioni, tabelline e problemi.\nInclude 60 schede PDF con soluzioni, livelli da prima a quinta.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "flashcard-inglese",
+                         "nome":  "Flashcard di inglese per bambini",
+                         "descrizione":  "Carte illustrate con le parole base, da stampare e ritagliare.",
+                         "categoria":  "scuola",
+                         "icona":  "📚",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  790,
+                         "descrizione_completa":  "Carte illustrate con le parole base, da stampare e ritagliare.\nInclude 150 flashcard in PDF, giochi di abbinamento, guida per i genitori.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "attivita-bambini",
+                         "nome":  "Pacchetto attivita e giochi per bambini",
+                         "descrizione":  "Labirinti, colorare, cruciverba e giochi da fare in viaggio o a casa.",
+                         "categoria":  "scuola",
+                         "icona":  "📚",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1290,
+                         "descrizione_completa":  "Labirinti, colorare, cruciverba e giochi da fare in viaggio o a casa.\nInclude 100 pagine PDF per 4-10 anni, versione A4 e Letter.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "cv-moderni",
+                         "nome":  "5 modelli di CV moderni",
+                         "descrizione":  "Cinque CV modificabili in Word e Canva, pensati per i selezionatori.",
+                         "categoria":  "lavoro",
+                         "icona":  "💼",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1290,
+                         "descrizione_completa":  "Cinque CV modificabili in Word e Canva, pensati per i selezionatori.\nInclude 5 modelli Word e Canva, guida alla compilazione, esempi.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "lettere-candidatura",
+                         "nome":  "Lettere di presentazione pronte",
+                         "descrizione":  "Modelli di lettera per vari settori, da adattare in pochi minuti.",
+                         "categoria":  "lavoro",
+                         "icona":  "💼",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  690,
+                         "descrizione_completa":  "Modelli di lettera per vari settori, da adattare in pochi minuti.\nInclude 15 lettere Word, guida alla personalizzazione.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "portfolio-freelance",
+                         "nome":  "Template portfolio per freelance",
+                         "descrizione":  "Pagina portfolio pronta da compilare con i tuoi lavori.",
+                         "categoria":  "lavoro",
+                         "icona":  "💼",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1990,
+                         "descrizione_completa":  "Pagina portfolio pronta da compilare con i tuoi lavori.\nInclude Template Canva e sito Jekyll, guida alla pubblicazione.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "calendario-editoriale",
+                         "nome":  "Calendario editoriale social 12 mesi",
+                         "descrizione":  "Piano dei contenuti con idee per ogni settimana dell anno.",
+                         "categoria":  "social",
+                         "icona":  "📱",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1490,
+                         "descrizione_completa":  "Piano dei contenuti con idee per ogni settimana dell anno.\nInclude Foglio Excel e Google Sheets, 365 idee, festivita e ricorrenze.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "caption-pack",
+                         "nome":  "365 caption e idee di post",
+                         "descrizione":  "Una caption al giorno per un anno, divise per tema.",
+                         "categoria":  "social",
+                         "icona":  "📱",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  990,
+                         "descrizione_completa":  "Una caption al giorno per un anno, divise per tema.\nInclude 365 caption, 12 temi, hashtag consigliati, PDF e foglio.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "reels-script",
+                         "nome":  "50 script per video brevi e Reels",
+                         "descrizione":  "Copioni pronti per video brevi, con apertura, corpo e invito all azione.",
+                         "categoria":  "social",
+                         "icona":  "📱",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1290,
+                         "descrizione_completa":  "Copioni pronti per video brevi, con apertura, corpo e invito all azione.\nInclude 50 script, schema di montaggio, esempi per vari settori.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "invito-matrimonio",
+                         "nome":  "Set inviti e partecipazioni matrimonio",
+                         "descrizione":  "Invito, risposta, menu e segnaposto coordinati e modificabili.",
+                         "categoria":  "eventi",
+                         "icona":  "💌",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1990,
+                         "descrizione_completa":  "Invito, risposta, menu e segnaposto coordinati e modificabili.\nInclude 8 pezzi in Canva e PDF, 3 palette, guida alla stampa.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "baby-shower",
+                         "nome":  "Kit baby shower e nascita",
+                         "descrizione":  "Inviti, giochi e decorazioni stampabili per festeggiare l arrivo di un bimbo.",
+                         "categoria":  "eventi",
+                         "icona":  "💌",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1290,
+                         "descrizione_completa":  "Inviti, giochi e decorazioni stampabili per festeggiare l arrivo di un bimbo.\nInclude 12 file PDF, inviti modificabili, giochi, cartelli.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "compleanno-kit",
+                         "nome":  "Kit festa di compleanno stampabile",
+                         "descrizione":  "Inviti, topper e decorazioni modificabili per feste di ogni eta.",
+                         "categoria":  "eventi",
+                         "icona":  "💌",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  990,
+                         "descrizione_completa":  "Inviti, topper e decorazioni modificabili per feste di ogni eta.\nInclude 10 file PDF e Canva, formati A4, istruzioni.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "sheets-budget",
+                         "nome":  "Budget familiare Google Sheets",
+                         "descrizione":  "Entrate, uscite e risparmi con grafici automatici.",
+                         "categoria":  "sheets",
+                         "icona":  "💰",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1290,
+                         "descrizione_completa":  "Entrate, uscite e risparmi con grafici automatici.\nInclude Foglio Google Sheets, 12 mesi, grafici, guida.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "sheets-viaggi",
+                         "nome":  "Pianificatore viaggi e spese",
+                         "descrizione":  "Itinerario, budget e valigia in un unico foglio.",
+                         "categoria":  "sheets",
+                         "icona":  "💰",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  890,
+                         "descrizione_completa":  "Itinerario, budget e valigia in un unico foglio.\nInclude Foglio Google Sheets, divisione spese tra amici, lista valigia.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "sheets-freelance",
+                         "nome":  "Tracker entrate e spese freelance",
+                         "descrizione":  "Fatture, entrate, spese e tasse da accantonare.",
+                         "categoria":  "sheets",
+                         "icona":  "💰",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1490,
+                         "descrizione_completa":  "Fatture, entrate, spese e tasse da accantonare.\nInclude Foglio Google Sheets ed Excel, riepilogo mensile, scadenze.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "template-artigiani",
+                         "nome":  "Template sito per artigiani",
+                         "descrizione":  "Sito Jekyll pronto per idraulici, elettricisti, imbianchini e imprese edili.",
+                         "categoria":  "template",
+                         "icona":  "🔨",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  4900,
+                         "descrizione_completa":  "Sito Jekyll pronto per idraulici, elettricisti, imbianchini e imprese edili.\nPacchetto zip con home, servizi, lavori svolti, contatti e pannello admin per modificare i testi senza toccare il codice. Pubblicabile gratis su GitHub Pages.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "template-ristoranti",
+                         "nome":  "Template sito per ristoranti",
+                         "descrizione":  "Sito Jekyll con menu, orari, galleria e prenotazione per ristoranti e bar.",
+                         "categoria":  "template",
+                         "icona":  "🍽️",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  4900,
+                         "descrizione_completa":  "Sito Jekyll con menu, orari, galleria e prenotazione per ristoranti e bar.\nPacchetto zip con pagine pronte, menu modificabile da admin e mappa. Pubblicabile gratis su GitHub Pages.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "carta-addon",
+                         "nome":  "Add-on per CartaCMS",
+                         "descrizione":  "Moduli aggiuntivi per CartaCMS: gallerie, form avanzati e backup.",
+                         "categoria":  "plugin",
+                         "icona":  "🧩",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  2900,
+                         "descrizione_completa":  "Moduli aggiuntivi per CartaCMS: gallerie, form avanzati e backup.\nPlugin PHP con istruzioni di installazione per il tuo CartaCMS. Aggiornamenti inclusi per un anno.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "inpost-locker",
+                         "nome":  "Modulo InPost Locker",
+                         "descrizione":  "Scelta del locker InPost al checkout per il tuo negozio online.",
+                         "categoria":  "plugin",
+                         "icona":  "📦",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  3900,
+                         "descrizione_completa":  "Scelta del locker InPost al checkout per il tuo negozio online.\nModulo PHP con ricerca dei locker vicini e salvataggio del punto scelto nell\u0027ordine. Istruzioni di installazione incluse.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "preventivi-contratti",
+                         "nome":  "Pacchetto preventivi e contratti tipo",
+                         "descrizione":  "Modelli Word e PDF di preventivi e contratti per professionisti italiani.",
+                         "categoria":  "testi",
+                         "icona":  "📝",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  2900,
+                         "descrizione_completa":  "Modelli Word e PDF di preventivi e contratti per professionisti italiani.\nFile modificabili da compilare con i tuoi dati. Sono modelli generici e non sostituiscono la consulenza di un professionista: fai controllare i testi legali prima di usarli.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "solleciti-checklist",
+                         "nome":  "Lettere di sollecito e checklist",
+                         "descrizione":  "Lettere di sollecito pagamento e checklist operative pronte da personalizzare.",
+                         "categoria":  "testi",
+                         "icona":  "✉️",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1900,
+                         "descrizione_completa":  "Lettere di sollecito pagamento e checklist operative pronte da personalizzare.\nFile Word e PDF, con toni diversi dal promemoria gentile alla diffida. Modelli generici: per i casi importanti chiedi a un professionista.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "excel-forfettario",
+                         "nome":  "Foglio Excel regime forfettario",
+                         "descrizione":  "Calcolo di ricavi, imposta e contributi per partite IVA in regime forfettario.",
+                         "categoria":  "excel",
+                         "icona":  "🧮",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1900,
+                         "descrizione_completa":  "Calcolo di ricavi, imposta e contributi per partite IVA in regime forfettario.\nFoglio Excel con registro fatture, soglie e scadenzario. Le aliquote vanno verificate con il tuo commercialista.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "excel-condominio",
+                         "nome":  "Foglio Excel gestione condominio",
+                         "descrizione":  "Spese, millesimi, rate e scadenze del condominio in un unico file.",
+                         "categoria":  "excel",
+                         "icona":  "🏢",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  2900,
+                         "descrizione_completa":  "Spese, millesimi, rate e scadenze del condominio in un unico file.\nFoglio Excel con ripartizione per millesimi, estratto per condomino e scadenzario.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "prompt-immobiliare",
+                         "nome":  "Prompt e skill per agenti immobiliari",
+                         "descrizione":  "Raccolta di prompt e skill Claude per annunci, schede e risposte ai clienti.",
+                         "categoria":  "prompt",
+                         "icona":  "🏠",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1900,
+                         "descrizione_completa":  "Raccolta di prompt e skill Claude per annunci, schede e risposte ai clienti.\nFile pronti da copiare in Claude, con esempi d\u0027uso per il lavoro dell\u0027agente immobiliare.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "prompt-condominio",
+                         "nome":  "Prompt e skill per amministratori di condominio",
+                         "descrizione":  "Prompt e skill Claude per convocazioni, verbali e comunicazioni ai condomini.",
+                         "categoria":  "prompt",
+                         "icona":  "📋",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1900,
+                         "descrizione_completa":  "Prompt e skill Claude per convocazioni, verbali e comunicazioni ai condomini.\nFile pronti da usare in Claude, con esempi per l\u0027attivita\u0027 dell\u0027amministratore.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "n8n-preventivi",
+                         "nome":  "Workflow n8n preventivi via email",
+                         "descrizione":  "Automazione n8n: richiesta dal sito, preventivo generato e inviato via email.",
+                         "categoria":  "n8n",
+                         "icona":  "📨",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  2900,
+                         "descrizione_completa":  "Automazione n8n: richiesta dal sito, preventivo generato e inviato via email.\nFile JSON da importare nel tuo n8n, con istruzioni per collegare email e modulo del sito.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "n8n-lead",
+                         "nome":  "Workflow n8n raccolta lead",
+                         "descrizione":  "Automazione n8n: i contatti dal sito finiscono in un foglio e ti arriva l\u0027avviso.",
+                         "categoria":  "n8n",
+                         "icona":  "🎯",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  2400,
+                         "descrizione_completa":  "Automazione n8n: i contatti dal sito finiscono in un foglio e ti arriva l\u0027avviso.\nFile JSON da importare nel tuo n8n, con istruzioni passo passo.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "guida-sito-github",
+                         "nome":  "Guida: il sito per la tua attivita\u0027 con GitHub Pages",
+                         "descrizione":  "Ebook passo passo per pubblicare gratis il sito della tua attivita\u0027.",
+                         "categoria":  "guide",
+                         "icona":  "📘",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1500,
+                         "descrizione_completa":  "Ebook passo passo per pubblicare gratis il sito della tua attivita\u0027.\nPDF con repository, dominio, pagine e aggiornamenti spiegati senza gergo.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "guida-claude-code",
+                         "nome":  "Guida: creare prodotti digitali con Claude Code",
+                         "descrizione":  "Ebook pratico su come costruire e vendere prodotti digitali con Claude Code.",
+                         "categoria":  "guide",
+                         "icona":  "💡",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1500,
+                         "descrizione_completa":  "Ebook pratico su come costruire e vendere prodotti digitali con Claude Code.\nPDF con il metodo, esempi reali e una checklist di lancio.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "excel-affitti-brevi",
+                         "nome":  "Foglio Excel affitti brevi e B\u0026B",
+                         "descrizione":  "Prenotazioni, incassi, spese e tassa di soggiorno per chi affitta case vacanza e camere.",
+                         "categoria":  "excel",
+                         "icona":  "🏠",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1900,
+                         "descrizione_completa":  "Prenotazioni, incassi, spese e tassa di soggiorno per chi affitta case vacanza e camere.\nCalendario prenotazioni, ricavi per mese, costi di pulizia e commissioni dei portali, riepilogo annuale. Versione Excel e Google Sheets.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "excel-food-cost",
+                         "nome":  "Foglio Excel food cost e menu",
+                         "descrizione":  "Calcola il costo di ogni piatto, il margine e il prezzo di vendita giusto.",
+                         "categoria":  "excel",
+                         "icona":  "🍽️",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  2400,
+                         "descrizione_completa":  "Calcola il costo di ogni piatto, il margine e il prezzo di vendita giusto.\nRicettario con ingredienti e prezzi, food cost per piatto, margine e prezzo consigliato, analisi del menu. Versione Excel e Google Sheets.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "excel-cantiere",
+                         "nome":  "Foglio Excel preventivo e margine cantiere",
+                         "descrizione":  "Preventivo a voci, costi reali e margine di ogni lavoro per imprese edili e artigiani.",
+                         "categoria":  "excel",
+                         "icona":  "🚧",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  2900,
+                         "descrizione_completa":  "Preventivo a voci, costi reali e margine di ogni lavoro per imprese edili e artigiani.\nPreventivo per voci con stampa per il cliente, registro dei costi per cantiere, confronto tra preventivato e speso, margine finale. Versione Excel e Google Sheets.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "excel-magazzino",
+                         "nome":  "Foglio Excel magazzino e scorte",
+                         "descrizione":  "Carico, scarico e soglie di riordino per piccoli negozi e laboratori.",
+                         "categoria":  "excel",
+                         "icona":  "📦",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1900,
+                         "descrizione_completa":  "Carico, scarico e soglie di riordino per piccoli negozi e laboratori.\nAnagrafica articoli, movimenti di carico e scarico, giacenza automatica, avviso di riordino, valore del magazzino. Versione Excel e Google Sheets.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "stampabili-registro-temperature",
+                         "nome":  "Registri temperature e pulizie stampabili",
+                         "descrizione":  "Registri pronti da stampare per frigoriferi, congelatori e pulizie di bar e ristoranti.",
+                         "categoria":  "stampabili",
+                         "icona":  "🌡️",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1500,
+                         "descrizione_completa":  "Registri pronti da stampare per frigoriferi, congelatori e pulizie di bar e ristoranti.\nRegistro temperature giornaliero, piano di pulizia settimanale, registro ricezione merci, in PDF e Word modificabile. Modulistica di supporto: non sostituisce il manuale di autocontrollo della tua attivita\u0027.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "stampabili-checklist-cantiere",
+                         "nome":  "Checklist di cantiere stampabili",
+                         "descrizione":  "Verbale di consegna lavori, checklist giornaliera e collaudo finale per imprese e artigiani.",
+                         "categoria":  "stampabili",
+                         "icona":  "✅",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1200,
+                         "descrizione_completa":  "Verbale di consegna lavori, checklist giornaliera e collaudo finale per imprese e artigiani.\nChecklist di avvio, giornaliera e di chiusura lavori, verbale di consegna da far firmare al cliente, in PDF e Word modificabile.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "stampabili-moduli-bb",
+                         "nome":  "Moduli per B\u0026B e affittacamere stampabili",
+                         "descrizione":  "Scheda ospite, regolamento della casa, check-in e check-out e check-list pulizie.",
+                         "categoria":  "stampabili",
+                         "icona":  "🛏️",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  1200,
+                         "descrizione_completa":  "Scheda ospite, regolamento della casa, check-in e check-out e check-list pulizie.\nScheda ospite, regolamento della casa, modulo di check-in e check-out, check-list pulizie camera, in PDF e Word modificabile.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "template-parrucchieri",
+                         "nome":  "Template sito per parrucchieri e centri estetici",
+                         "descrizione":  "Sito Jekyll con listino, prenotazione, galleria prima e dopo e contatti.",
+                         "categoria":  "template",
+                         "icona":  "💇",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  4900,
+                         "descrizione_completa":  "Sito Jekyll con listino, prenotazione, galleria prima e dopo e contatti.\nPacchetto zip con home, listino servizi, galleria, contatti e pannello admin per modificare i testi senza toccare il codice. Pubblicabile gratis su GitHub Pages.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "template-bb",
+                         "nome":  "Template sito per B\u0026B e affittacamere",
+                         "descrizione":  "Sito Jekyll con camere, prezzi, galleria, dintorni e richiesta di disponibilita\u0027.",
+                         "categoria":  "template",
+                         "icona":  "🏨",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  4900,
+                         "descrizione_completa":  "Sito Jekyll con camere, prezzi, galleria, dintorni e richiesta di disponibilita\u0027.\nPacchetto zip con pagine camere, galleria, zona e contatti con richiesta di disponibilita\u0027, pannello admin incluso. Pubblicabile gratis su GitHub Pages.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "n8n-pack-artigiani",
+                         "nome":  "Pack n8n per artigiani (5 workflow)",
+                         "descrizione":  "Cinque automazioni pronte: preventivo, contatti, recensioni, promemoria appuntamenti e solleciti.",
+                         "categoria":  "n8n",
+                         "icona":  "⚙️",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  3900,
+                         "descrizione_completa":  "Cinque automazioni pronte: preventivo, contatti, recensioni, promemoria appuntamenti e solleciti.\nCinque workflow n8n in JSON con guida di installazione passo passo: preventivo via email, raccolta contatti, richiesta recensioni, promemoria appuntamenti, sollecito pagamenti.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "bundle-ristorante",
+                         "nome":  "Kit ristorante: sito, food cost e registri",
+                         "descrizione":  "Template sito, foglio food cost e registri temperature in un unico pacchetto.",
+                         "categoria":  "bundle",
+                         "icona":  "🍴",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  6900,
+                         "descrizione_completa":  "Template sito, foglio food cost e registri temperature in un unico pacchetto.\nInclude Template sito per ristoranti, Foglio Excel food cost e menu, Registri temperature e pulizie stampabili.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "bundle-artigiano",
+                         "nome":  "Kit artigiano: sito, preventivo e automazioni",
+                         "descrizione":  "Template sito, foglio cantiere, pack n8n e checklist di cantiere insieme.",
+                         "categoria":  "bundle",
+                         "icona":  "🛠️",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  8900,
+                         "descrizione_completa":  "Template sito, foglio cantiere, pack n8n e checklist di cantiere insieme.\nInclude Template sito per artigiani, Foglio Excel preventivo e margine cantiere, Pack n8n per artigiani, Checklist di cantiere stampabili.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     },
+                     {
+                         "id":  "bundle-bb",
+                         "nome":  "Kit B\u0026B: sito, foglio affitti e moduli",
+                         "descrizione":  "Template sito B\u0026B, foglio affitti brevi e moduli stampabili in un unico pacchetto.",
+                         "categoria":  "bundle",
+                         "icona":  "🏡",
+                         "tipo":  "digitale",
+                         "prezzo_centesimi":  6500,
+                         "descrizione_completa":  "Template sito B\u0026B, foglio affitti brevi e moduli stampabili in un unico pacchetto.\nInclude Template sito per B\u0026B, Foglio Excel affitti brevi e B\u0026B, Moduli per B\u0026B e affittacamere stampabili.\nPrezzo una tantum. Pre-ordine: nessun pagamento ora, ti scriviamo quando il prodotto e\u0027 pronto.",
+                         "immagine":  "",
+                         "visibile":  true
+                     }
+                 ]
+}

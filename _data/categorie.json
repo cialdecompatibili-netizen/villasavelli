@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "template",
+    "descrizione": "Template di siti Jekyll pronti per attivita' italiane"
+  },
+  {
+    "nome": "guide",
+    "descrizione": "Ebook e guide pratiche su siti, automazioni e prodotti digitali"
+  },
+  {
+    "nome": "automazioni",
+    "descrizione": "Workflow n8n, prompt e strumenti per risparmiare tempo"
+  }
+]

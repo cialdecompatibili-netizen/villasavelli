@@ -1,0 +1,8 @@
+[
+    {
+        "id": "main",
+        "nome": "Contenuto",
+        "enabled": true,
+        "html": "<p>Prodotti Digitali vende template di siti, plugin, fogli Excel, modelli di testi, prompt, workflow n8n e guide, pronti da adattare. Claude, n8n e gli altri software citati appartengono ai rispettivi autori.</p><h2>Categorie</h2><ul><li><a href=\"__BASEURL__/negozio/categoria/template/\">Template siti Jekyll</a></li><li><a href=\"__BASEURL__/negozio/categoria/plugin/\">Moduli e plugin PHP</a></li><li><a href=\"__BASEURL__/negozio/categoria/testi/\">Modelli di testi</a></li><li><a href=\"__BASEURL__/negozio/categoria/excel/\">Fogli Excel pronti</a></li><li><a href=\"__BASEURL__/negozio/categoria/prompt/\">Prompt e skill Claude</a></li><li><a href=\"__BASEURL__/negozio/categoria/n8n/\">Workflow n8n</a></li><li><a href=\"__BASEURL__/negozio/categoria/guide/\">Ebook e guide</a></li></ul><p>Pre-ordina dal negozio o scrivici dalla pagina Contatti.</p>"
+    }
+]

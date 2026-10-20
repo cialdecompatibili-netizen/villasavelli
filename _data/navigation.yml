@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Categorie"
+    url: /negozio/
+  - title: "Blog"
+    url: /blog/
+  - title: "Contatti"
+    url: /contatti/

@@ -1,0 +1,76 @@
+# =====================================================================================
+# SOTTOMENU DEL SITO  (_data/sottomenu.yml)
+# Le voci PRINCIPALI stanno in _data/navigation.yml (le modifica anche admin > Menu).
+# Qui stanno solo le TENDINE. Ora le gestisce anche admin > Menu (bottone "Sottomenu"
+# su ogni voce): salvando dall'admin questo file viene riscritto, questo commento resta.
+#
+# COME SI USA
+#   1) la CHIAVE (prima dei due punti) deve essere IDENTICA al "title" della voce in
+#      navigation.yml: maiuscole, spazi e accenti compresi.
+#   2) sotto la chiave, una lista: ogni riga "- title" + "url" e' un link.
+#   3) "- divider: true" disegna una riga di separazione (mai in coda, mai due di fila).
+#   4) url interno SENZA nome repo: /servizi/x/  (NON /edilextreme4/servizi/x/).
+#      Link esterno: url completo, es. https://esempio.it
+#   5) un solo livello: niente sottomenu dentro un sottomenu.
+#   6) la voce padre apre solo la tendina, non e' cliccabile. Per un link alla pagina padre
+#      aggiungi come primo figlio "Tutti i ...".
+#
+# ESEMPIO COMPLETO (da copiare, cambiando i nomi):
+#
+#   Lavori svolti:                       <- stesso title di navigation.yml
+#     - title: "Ristrutturazioni"
+#       url: /lavori/ristrutturazioni/
+#     - title: "Facciate"
+#       url: /lavori/facciate/
+#     - divider: true
+#     - title: "Tutti i lavori"
+#       url: /lavori/
+#
+# ERRORI TIPICI: chiave diversa dal title (la tendina non compare); url con il nome repo
+# (link doppio); virgolette mancanti se il title contiene i due punti; divider in coda.
+# Per levare una tendina: cancella il blocco, la voce torna un link normale.
+# Documentazione del funzionamento: commento in testa a _includes/masthead.html.
+# =====================================================================================
+
+Categorie:
+  - title: "Template siti Jekyll"
+    url: "/negozio/categoria/template/"
+  - title: "Moduli e plugin PHP"
+    url: "/negozio/categoria/plugin/"
+  - title: "Modelli di testi"
+    url: "/negozio/categoria/testi/"
+  - title: "Fogli Excel pronti"
+    url: "/negozio/categoria/excel/"
+  - title: "Prompt e skill Claude"
+    url: "/negozio/categoria/prompt/"
+  - title: "Workflow n8n"
+    url: "/negozio/categoria/n8n/"
+  - title: "Ebook e guide"
+    url: "/negozio/categoria/guide/"
+  - title: "Stampabili"
+    url: "/negozio/categoria/stampabili/"
+  - title: "Bundle"
+    url: "/negozio/categoria/bundle/"
+  - title: "Planner"
+    url: "/negozio/categoria/planner/"
+  - title: "Canva"
+    url: "/negozio/categoria/canva/"
+  - title: "Notion"
+    url: "/negozio/categoria/notion/"
+  - title: "Wall art"
+    url: "/negozio/categoria/wallart/"
+  - title: "SVG e clipart"
+    url: "/negozio/categoria/clipart/"
+  - title: "Materiale didattico"
+    url: "/negozio/categoria/scuola/"
+  - title: "CV e portfolio"
+    url: "/negozio/categoria/lavoro/"
+  - title: "Social media"
+    url: "/negozio/categoria/social/"
+  - title: "Inviti e feste"
+    url: "/negozio/categoria/eventi/"
+  - title: "Google Sheets"
+    url: "/negozio/categoria/sheets/"
+  - divider: true
+  - title: "Tutti i prodotti"
+    url: "/negozio/"

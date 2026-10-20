@@ -1,0 +1,35 @@
+{%- comment -%}
+  "Altri lavori" in fondo a ogni pagina progetto: stessa grafica delle card dei servizi
+  (grid__wrapper / archive__item), con i progetti al posto dei servizi.
+  Elenco = collection `progetti`, esclusa la pagina corrente, massimo 4 card (griglia 2x2).
+  Immagine card: header.teaser, altrimenti header.image; se mancano, card solo testo.
+  Per cambiare il numero di card: variabile `max_card` qui sotto.
+{%- endcomment -%}
+{%- assign max_card = 4 -%}
+{%- assign n = 0 -%}
+{%- capture cards -%}
+  {%- for item in site.progetti -%}
+    {%- if item.url == page.url or n >= max_card -%}{%- continue -%}{%- endif -%}
+      {%- assign n = n | plus: 1 -%}
+      {%- assign img = item.header.teaser | default: item.header.image -%}
+      {%- assign testo = item.description | default: item.excerpt | strip_html | strip_newlines | truncate: 160 -%}
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if img %}<div class="archive__item-teaser"><img src="{{ img | relative_url }}" alt="{{ item.title | escape }}"></div>{% endif %}
+    <h2 class="archive__item-title no_toc p-name" itemprop="headline"><a class="u-url" href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a></h2>
+    <p class="archive__item-excerpt p-summary" itemprop="description">{{ testo }}</p>
+  </article>
+</div>
+  {%- endfor -%}
+{%- endcapture -%}
+{%- if n > 0 -%}
+<div class="page__related progetti-correlati">
+  <style>
+    @media (min-width:768px){.progetti-correlati .grid__item{width:calc(50% - 1em);margin-left:0;margin-right:1em;float:left}.progetti-correlati .grid__item:nth-child(even){margin-right:0;margin-left:1em}}
+  </style>
+  <h2 class="page__related-title">Altri lavori svolti</h2>
+  <div class="grid__wrapper">
+    {{ cards }}
+  </div>
+</div>
+{%- endif -%}
