@@ -74,3 +74,11 @@ Categorie:
   - divider: true
   - title: "Tutti i prodotti"
     url: "/negozio/"
+
+Offerte:
+  - title: "Posto letto economico"
+    url: /posto-letto-economico/
+  - title: "Soggiorni lunghi"
+    url: /soggiorni-lunghi/
+  - title: "Coworking"
+    url: /coworking/

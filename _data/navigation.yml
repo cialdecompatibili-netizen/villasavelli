@@ -1,12 +1,8 @@
-main:
+﻿main:
   - title: "Home"
     url: /
-  - title: "Soggiorni lunghi"
-    url: /soggiorni-lunghi/
-  - title: "Posto letto economico"
+  - title: "Offerte"
     url: /posto-letto-economico/
-  - title: "Coworking"
-    url: /coworking/
   - title: "Mentana e dintorni"
     url: /mentana-e-dintorni/
   - title: "Regole e FAQ"
