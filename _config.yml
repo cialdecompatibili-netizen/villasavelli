@@ -99,4 +99,4 @@ cms_homepage:
 ecommerce: false
 # Ordini (SMOKE TEST, nessun pagamento): il browser scrive una riga nel foglio Google chiamando questo Apps Script. Vuoto = il pulsante 'Invia richiesta d'ordine' resta spento.
 ordini:
-  tracker: ""
+  tracker: "https://script.google.com/macros/s/AKfycbzS_BXbhdL5lonAPSMcLF0d0zxBgf4L38mxBrhGMSsKrDKp-vlYMCxuWmcUURnu6Vxn/exec"
